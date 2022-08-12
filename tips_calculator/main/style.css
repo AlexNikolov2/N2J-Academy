@@ -178,6 +178,9 @@ main{
     flex-direction: row;
     width: 100%;
 }
+.attribution{
+    text-align: center;
+}
 
 /* RESPONSIVE */
 
