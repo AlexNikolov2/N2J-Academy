@@ -7,3 +7,4 @@ Stages:
 * [x] Theory 
 * [x] Unit Tests
 * [ ] Figma
+    * [x] Tip Calculator
