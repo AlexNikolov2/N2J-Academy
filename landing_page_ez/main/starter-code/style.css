@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    color: #191826;
+    margin-left: 170px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    /* width: 1015px; */
+    width: 70%;
+  }
+  
+  h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  
+  .body1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  
+  .body2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  header {
+    margin-bottom: 120px;
+    margin-top: 65px;
+  }
+  
+  .arsenal .body1 {
+    background-color: yellow;
+    /* width: 825px; */
+    width: 66%;
+    margin-top: -10px;
+  }
+  
+  #background-desktop {
+    z-index: -3;
+    position: absolute;
+    top: -250px;
+    left: -250px;
+  }
+  
+  #background-tablet {
+    display: none;
+  }
+  
+  #background-mobile {
+    display: none;
+  }
+  
+  .pictures {
+    background-color: pink;
+    margin: auto;
+    position: relative;
+    margin-top: 7.7%;
+  }
+  
+  #illustration {
+    width: 312px;
+    height: 642px;
+    display: inline;
+    position: absolute;
+    top: 36%;
+    left: 8%;
+  }
+  
+  #rectangle {
+    position: absolute;
+    top: 200px;
+    border-radius: 12px;
+    left: 0;
+    z-index: -2;
+  }
+  
+  #pattern-1 {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: -1;
+  }
+  
+  #pattern-2 {
+    z-index: -1;
+    width: 312px;
+    height: 468px;
+    margin: auto;
+    position: absolute;
+    left: 26.5%;
+    top: 180px;
+  }
+  
+  .premium {
+    border-radius: 12px;
+    background-color: #fa7453;
+    color: white;
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-right: 65px;
+    width: 326px;
+    height: 600px;
+    position: absolute;
+    left: 742px;
+    top: 965px;
+  }
+  
+  .premium h2 {
+    margin-bottom: 0;
+  }
+  
+  .price-month {
+    margin-top: 43px;
+    margin-bottom: 43px;
+  }
+  
+  #price {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 52px;
+    display: inline;
+  }
+  
+  #month {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    top: -19px;
+  }
+  
+  button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    width: 333px;
+    height: 61px;
+    margin: auto;
+  }
+  
+  #ios {
+    color: #fcfaf9;
+    background-color: #191826;
+    margin-bottom: 17px;
+  }
+  
+  #ios:hover {
+    background-color: #66e2dc;
+  }
+  
+  #android {
+    color: #191826;
+    background-color: #fcfaf9;
+  }
+  
+  #android:hover {
+    background-color: #ffb964;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 1700px;
+    width: 1110px;
+  }
+  
+  #logo-bottom {
+    height: 32px;
+  }
+  
+  footer .body2 {
+    margin-left: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .body2 p {
+    width: 366px;
+    margin-top: 0px;
+  }
+  
+  .social {
+    width: 105px;
+    height: 20px;
+    position: relative;
+    top: 30px;
+  }
+  
+  .social svg {
+    margin-left: 12px;
+  }
+  
+  svg.social-icon path:hover {
+    fill: #fa7453 !important;
+  }
+  
+  /* tablet view */
+  @media screen and (max-width:768px) and (min-width: 376px){
+    body {
+      margin-left: 40px;
+    }
+  
+    h1 {
+      font-size: 64px;
+      line-height: 64px;
+      width: 520px;
+    }
+  
+    h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .body1 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    #background-desktop {
+      display: none;
+    }
+  
+    #background-tablet {
+      display: block;
+      position: absolute;
+      z-index: -3;
+      top: -260px;
+      left: -390px;
+    }
+  
+    #background-mobile {
+      display: none;
+    }
+  
+    .header {
+      margin-bottom: 80px;
+    }
+  
+    .arsenal .body1 {
+      width: 520px;
+    }
+  
+    #pattern-1 {
+      width: 267px;
+      height: 400px;
+      left: 537px;
+      top: -32px;
+    }
+  
+    #pattern-2 {
+      width: 280px;
+      height: 420px;
+      left: 275px;
+      top: 738px;
+    }
+  
+    #illustration {
+      width: 270px;
+      height: 556px;
+      top: 628px;
+      left: 110px;
+    }
+  
+    #rectangle {
+      width: 696px;
+      height: 600px;
+      position: absolute;
+      left: 40px;
+      top: 770px;
+    }
+  
+    .premium {
+      width: 304px;
+      height: 546px;
+      top: 922px;
+      left: 285px;
+      padding-left: 50px;
+      padding-top: 25px;
+      padding-right: 45px;
+    }
+  
+    button {
+      width: 296px;
+      height: 61px;
+    }
+  
+    footer {
+      width: 696px;
+      flex-direction: column;
+    }
+  
+    #logo-bottom {
+      width: 146px;
+      margin-bottom: 23px;
+    }
+  
+    footer .body2 {
+      width: 100%;
+      display: flex;
+      margin-left: 0;
+    }
+  
+    .social {
+      position: relative;
+      top: 20px;
+    }
+  }
+  
+  /* mobile view */
+  
+  @media screen and (max-width: 375px) {
+  
+  body {
+    margin-left: 25px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    width: 327px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  
+  .body1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .body2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .header {
+    margin-bottom: 53px;
+    margin-top: 40px;
+  }
+  
+  .arsenal .body1 {
+    font-size: 16px;
+    line-height: 26px;
+    width: 327px;
+  
+  }
+  
+  #background-desktop {
+    display: none;
+  }
+  
+  #background-tablet {
+    display: none;
+  }
+  
+  #background-mobile {
+    display: block;
+    z-index: -3;
+    position: absolute;
+    top: -250px;
+  }
+  
+  #illustration {
+    width: 209px;
+    height: 430px;
+    position: absolute;
+    top: 500px;
+    left: 85px;
+  }
+  
+  #rectangle {
+    width: 375px;
+    height: 600px;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    z-index: -2;
+  }
+  
+  #pattern-1 {
+    display: none;
+  }
+  
+  #pattern-2 {
+    width: 280px;
+    height: 420px;
+    position: absolute;
+    left: 50px;
+    top: 600px;
+  }
+  
+  .premium {
+    padding-left: 35px;
+    padding-top: 23px;
+    padding-right: 35px;
+    width: 305px;
+    height: 546px;
+    position: absolute;
+    left: 0px;
+    top: 981px;
+  }
+  
+  .premium h2 {
+    margin-bottom: -2px;
+  }
+  
+  .price-month {
+    margin-top: 43px;
+    margin-bottom: 33px;
+  }
+  
+  #month {
+    top: -17px;
+  }
+  
+  button {
+    width: 296px;
+    height: 61px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 1612px;
+    width: 1110px;
+  }
+  
+  #logo-bottom {
+    width: 146px;
+    margin-bottom: 23px;
+  }
+  
+  footer .body2 {
+    flex-direction: column;
+    margin-left: 0px;
+    width: 327px;
+  }
+  
+  footer .body2 p {
+    width: 327px;
+  }
+  
+  .social {
+    width: 105px;
+    height: 20px;
+    position: relative;
+    top: 30px;
+  }
+  
+  .social svg {
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+  
+  }
