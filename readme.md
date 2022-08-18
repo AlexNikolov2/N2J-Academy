@@ -8,3 +8,6 @@ Stages:
 * [x] Unit Tests
 * [ ] Figma
     * [x] Tip Calculator
+    * [x] Landing page
+    * [ ] Github User Search
+    * [ ] E-commerce
