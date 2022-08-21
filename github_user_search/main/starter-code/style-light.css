@@ -150,8 +150,8 @@ input:focus{
     outline: none;
 }
 .dark {
-    display: block;
+    display: none;
 }
 .white{
-    display: none;
+    display: block;
 }

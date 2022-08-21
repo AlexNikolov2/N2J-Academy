@@ -10,7 +10,7 @@ function toggleTheme(e) {
     head.appendChild(link);
 
     
-    if (Array.from(e.target.parentElement.classList).includes('white')) {
+    if (Array.from(e.target.classList).includes('white')) {
         link.href = './style-dark.css';
 
     } else {
