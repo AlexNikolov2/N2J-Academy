@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background-color: #F6F8FF;
+    background-color: #141d2f;
     font-family: 'Space Mono', monospace;
     color: #4B6A9B;
 }
@@ -19,10 +19,11 @@ header{
 header .right{
     position: relative;
     top: 20px;
+    color: #bcbcbc;
 }
 .title, h1,h2,h3,h4,h5,h6{
     font-weight: bold;
-    color: #2B3442;
+    color: white;
 }
 .title, h2{
     font-size:22px;
@@ -31,17 +32,16 @@ header .right{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
+    background-color: #1e2a47;
     padding: 10px;
-    box-shadow: 0px 10px 10px 0em rgb(215, 215, 215),
-              0 0 0 0em ;
               border-radius: 10px;
 }
 .search-bar input{
     text-align: left;
+    position: relative;
     margin-left: 10px;
-    color: #4B6A9B;
-    background-color: white;
+    color: white;
+    background-color: #1e2a47;
     border: none;
     font-size: 21px;
     font-family: 'Space-Mono', monospace;
@@ -65,10 +65,8 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 40px;
-    background-color: white;
+    background-color: #1e2a47;
     padding: 44px;
-    box-shadow: 0px 10px 10px 0em rgb(215, 215, 215),
-              0 0 0 0em ;
               border-radius: 10px;
 }
 main .left{
@@ -103,7 +101,7 @@ main .right{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #F6F8FF
+    background-color: #141d2f;
 }
 .column h3{
     padding-top: -15px;
@@ -126,13 +124,16 @@ main .right{
     top: -15px;
 }
 .not-available{
+    color: #807f7f;
+}
+main p{
     color: #bcbcbc;
 }
 
 /*hovers and actives*/
 
 header .right:hover{
-    color: black;
+    color: #4B6A9B;
     cursor: pointer;
 }
 button:hover{
@@ -147,7 +148,4 @@ button:hover{
 .info .not-available:hover{
     text-decoration: none;
     cursor:auto;
-}
-input:focus{
-    outline: none;
 }
