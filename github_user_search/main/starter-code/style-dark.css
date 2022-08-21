@@ -130,8 +130,6 @@ main p{
     color: #bcbcbc;
 }
 
-/*hovers and actives*/
-
 header .right:hover{
     color: #4B6A9B;
     cursor: pointer;
@@ -148,4 +146,10 @@ button:hover{
 .info .not-available:hover{
     text-decoration: none;
     cursor:auto;
+}
+.white {
+    display: none;
+}
+.dark{
+    display: block;
 }

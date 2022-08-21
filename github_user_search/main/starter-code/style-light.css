@@ -129,8 +129,6 @@ main .right{
     color: #bcbcbc;
 }
 
-/*hovers and actives*/
-
 header .right:hover{
     color: black;
     cursor: pointer;
@@ -150,4 +148,10 @@ button:hover{
 }
 input:focus{
     outline: none;
+}
+.dark {
+    display: block;
+}
+.white{
+    display: none;
 }
