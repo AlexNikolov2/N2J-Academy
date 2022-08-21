@@ -9,5 +9,5 @@ Stages:
 * [ ] Figma
     * [x] Tip Calculator
     * [x] Landing page
-    * [ ] Github User Search
+    * [x] Github User Search
     * [ ] E-commerce
