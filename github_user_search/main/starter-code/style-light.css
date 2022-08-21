@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+body {
+    margin: 0;
+    background-color: #F6F8FF;
+    font-family: 'Space Mono', monospace;
+    color: #4B6A9B;
+}
+
+.wrapper{
+    margin: 60px 400px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title, h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    color: #2B3442;
+}
+.title, h2{
+    font-size:22px;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0em rgb(215, 215, 215),
+              0 0 0 0em ;
+              border-radius: 10px;
+}
+.search-bar p{
+    text-align: left;
+    position: relative;
+    right: 160px;
+}
+button{
+    background-color: #0079ff;
+    border: 2px solid #0079ff;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    font-family: 'Space-Mono', monospace;
+}
+.search-bar i{
+    position: relative;
+    top: 15px;
+    color: #0079ff;
+    font-size: 25px; 
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: white;
+    padding: 44px;
+}
+main .left{
+    width: 30%;
+}
+main img{
+    width: 100%;
+}
+main .right{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.right .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right .blue{
+    color: #0079ff;
+    position: relative;
+    top: -30px;
+}
+.right .bio{
+    position: relative;
+    top: -30px;
+}
+.right .stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F6F8FF
+}
+.column h3{
+    padding-top: -15px;
+}
