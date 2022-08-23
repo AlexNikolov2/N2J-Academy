@@ -10,4 +10,4 @@ Stages:
     * [x] Tip Calculator
     * [x] Landing page
     * [x] Github User Search
-    * [ ] E-commerce 
+    * [x] E-commerce 
