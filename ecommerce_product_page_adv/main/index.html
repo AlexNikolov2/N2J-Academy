@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | E-commerce product page</title>
 </head>
+
 <body>
   <header>
     <img src="images/icon-menu.svg" alt="" id="icon-menu">
     <img src="images/logo.svg" alt="logo" id="logo">
-    <div class="navbar">
+    <section class="navbar">
       <p>Collections</p>
       <p>Men</p>
       <p>Women</p>
       <p>About</p>
       <p>Contact</p>
-    </div>
+    </section>
 
     <svg id="cart-grey" width="22" height="20" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -26,31 +29,31 @@
         fill="#69707D" fill-rule="nonzero" />
     </svg>
 
-    <div id="cart-number">
+    <section id="cart-items">
 
-    </div>
+    </section>
 
-    <button id="avatar" type="button" name="button"><img src="images/image-avatar.png" alt="avatar"></button>
+    <button id="profile-icon" type="button" name="button"><img src="images/image-avatar.png" alt="profile-icon"></button>
 
-    <div class="cart">
+    <section class="cart">
       <h4>Cart</h4>
       <hr>
       <p class="cart-empty">Your cart is empty.</p>
-      <div class="cart-full">
+      <article class="cart-full">
         <div class="cart-content">
         </div>
         <button type="button" name="button">Checkout</button>
-      </div>
+      </article>
 
-    </div>
+    </section>
 
   </header>
 
 
   <hr class="hr-main">
 
-  <div class="container-main">
-    <div class="container-left">
+  <section class="container-main">
+    <section class="container-left">
 
       <img src="images/image-product-1.jpg" alt="">
       <img src="images/image-product-2.jpg" alt="">
@@ -58,11 +61,13 @@
       <img src="images/image-product-4.jpg" alt="">
 
       <div class="arrows-mobile" id="prev-mobile">
-        <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+        <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
       </div>
 
       <div class="arrows-mobile" id="next-mobile">
-        <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+        <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
       </div>
 
       <div class="thumbnails">
@@ -71,10 +76,10 @@
         <button type="button" name="button"><img src="images/image-product-3-thumbnail.jpg" alt=""></button>
         <button type="button" name="button"><img src="images/image-product-4-thumbnail.jpg" alt=""></button>
       </div>
-    </div>
+    </section>
 
 
-    <div class="container-right">
+    <section class="container-right">
 
       <h1>Sneaker Company</h1>
 
@@ -97,13 +102,16 @@
 
         <div class="amount">
           <button type="button" name="button">
-            <svg id="minus" width="12" height="4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg id="minus" width="12" height="4" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
               <defs>
-                <path d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z" id="a" />
+                <path
+                  d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z"
+                  id="a" />
               </defs>
               <use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#a" />
             </svg>
-            <!-- <img src="images/icon-minus.svg" alt="minus" id="minus"> -->
+
           </button>
 
           <div class="amount-number">
@@ -111,7 +119,8 @@
           </div>
 
           <button type="button" name="button">
-            <svg id="plus" width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg id="plus" width="12" height="12" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
               <defs>
                 <path
                   d="M12 7.023V4.977a.641.641 0 0 0-.643-.643h-3.69V.643A.641.641 0 0 0 7.022 0H4.977a.641.641 0 0 0-.643.643v3.69H.643A.641.641 0 0 0 0 4.978v2.046c0 .356.287.643.643.643h3.69v3.691c0 .356.288.643.644.643h2.046a.641.641 0 0 0 .643-.643v-3.69h3.691A.641.641 0 0 0 12 7.022Z"
@@ -119,7 +128,6 @@
               </defs>
               <use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#b" />
             </svg>
-            <!-- <img src="images/icon-plus.svg" alt="plus" id="plus"> -->
           </button>
 
         </div>
@@ -136,59 +144,60 @@
       </div>
       <!-- container-bottom-right -->
 
-
-
-
-    </div>
+    </section>
     <!-- container-right -->
-  </div>
+  </section>
   <!-- container-main -->
 
-  <div class="lightbox">
-    <div class="container-lightbox">
-      <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#69707D" fill-rule="evenodd"/></svg>
-      <div class="lightbox-content">
+  <section class="lightbox">
+    <article class="container-lightbox">
+      <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+          fill="#69707D" fill-rule="evenodd" /></svg>
 
+      <article class="lightbox-content">
 
-          <button id="prev" type="button" name="button">
-            <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
-          </button>
-          <button id="next" type="button" name="button">
-            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
-          </button>
-
-
+        <button id="prev" type="button" name="button">
+          <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
+        </button>
+        <button id="next" type="button" name="button">
+          <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
+        </button>
 
         <img src="images/image-product-1.jpg" alt="">
         <img src="images/image-product-2.jpg" alt="">
         <img src="images/image-product-3.jpg" alt="">
         <img src="images/image-product-4.jpg" alt="">
-        <div class="thumbnails-lightbox">
+        <article class="thumbnails-lightbox">
           <button type="button" name="button"><img src="images/image-product-1-thumbnail.jpg" autofocus alt=""></button>
           <button type="button" name="button"><img src="images/image-product-2-thumbnail.jpg" alt=""></button>
           <button type="button" name="button"><img src="images/image-product-3-thumbnail.jpg" alt=""></button>
           <button type="button" name="button"><img src="images/image-product-4-thumbnail.jpg" alt=""></button>
-        </div>
+        </article>
+      </article>
+    </article>
+  </section>
+
+  <section class="menu-mobile">
+    <div class="menu-mobile-content">
+      <img src="images/icon-close.svg" alt="">
+      <div class="menu-list">
+        <p>Collections</p>
+        <p>Men</p>
+        <p>Women</p>
+        <p>About</p>
+        <p>Contact</p>
       </div>
     </div>
-  </div>
+  </section>
 
-<div class="menu-mobile">
-  <div class="menu-mobile-content">
-    <img src="images/icon-close.svg" alt="">
-    <div class="menu-list">
-      <p>Collections</p>
-      <p>Men</p>
-      <p>Women</p>
-      <p>About</p>
-      <p>Contact</p>
-    </div>
-  </div>
-</div>
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Aleks Nikolov</a>.
   </div>
 </body>
+
 </html>
