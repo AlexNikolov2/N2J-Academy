@@ -17,3 +17,7 @@ function toggleTheme(e) {
         link.href = './style-light.css';
     }
 }
+
+document.querySelector('button').addEventListener('click', () => {
+    alert('no results')
+})
