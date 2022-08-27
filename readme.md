@@ -6,7 +6,7 @@ Stages:
 
 * [x] Theory 
 * [x] Unit Tests
-* [ ] Figma
+* [x] Figma
     * [x] Tip Calculator
     * [x] Landing page
     * [x] Github User Search
