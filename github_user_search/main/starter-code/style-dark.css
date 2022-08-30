@@ -35,6 +35,7 @@ header .right{
     background-color: #1e2a47;
     padding: 10px;
               border-radius: 10px;
+              box-shadow: none;
 }
 .search-bar input{
     text-align: left;
@@ -68,6 +69,7 @@ main{
     background-color: #1e2a47;
     padding: 44px;
               border-radius: 10px;
+              box-shadow: none;
 }
 main .left{
     width: 30%;
