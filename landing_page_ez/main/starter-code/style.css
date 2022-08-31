@@ -427,7 +427,10 @@ body > img {
 
 /* mobile view */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
+  body > img{
+    display: none;
+  }
   body {
     margin-left: 25px;
   }
@@ -460,7 +463,37 @@ body > img {
     margin-bottom: 53px;
     margin-top: 40px;
   }
+  .arsenal{
+    position: relative;
+    bottom: 70px;
+  }
+  .oval-2, .oval-3{
+    display: none;
+  }
+  .oval-green{
+    position: absolute;
+width: 281.4px;
+height: 281.4px;
+left: 159px;
+top: -104px;
 
+background: #40FFF6;
+mix-blend-mode: normal;
+opacity: 0.28;
+filter: blur(135.914px);
+  }
+  .oval{
+    position: absolute;
+width: 281.4px;
+height: 281.4px;
+left: 159px;
+top: 94.6px;
+
+background: #FF9201;
+mix-blend-mode: normal;
+opacity: 0.15;
+filter: blur(135.914px);
+  }
   .arsenal .body1 {
     font-size: 16px;
     line-height: 26px;
@@ -477,7 +510,7 @@ body > img {
 
   #background-mobile {
     display: block;
-    z-index: -3;
+    /*z-index: -3;*/
     position: absolute;
     top: -250px;
   }
@@ -499,6 +532,13 @@ body > img {
     z-index: -2;
   }
 
+  .pictures {
+    background-color: pink;
+    margin: auto;
+    position: relative;
+    margin-top: 7.7%;
+    bottom: 570px;
+}
   #pattern-1 {
     display: none;
   }
@@ -518,7 +558,7 @@ body > img {
     width: 305px;
     height: 546px;
     position: absolute;
-    left: 0px;
+    left: 25px;
     top: 981px;
   }
 
@@ -546,7 +586,7 @@ body > img {
     justify-content: flex-start;
     position: absolute;
     top: 1612px;
-    width: 1110px;
+    width: 375px;
   }
 
   #logo-bottom {
