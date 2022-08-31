@@ -95,8 +95,12 @@ header {
   mix-blend-mode: normal;
   opacity: 0.28;
   filter: blur(135.914px);
+  z-index: -1;
 }
-.oval-1, .oval-2, .oval-3, .oval-green{
+.oval-1,
+.oval-2,
+.oval-3,
+.oval-green {
   z-index: -1;
 }
 #background-desktop {
@@ -350,7 +354,7 @@ body > img {
     width: 304px;
     height: 546px;
     top: 922px;
-    left: 285px;
+    left: 325px;
     padding-left: 50px;
     padding-top: 25px;
     padding-right: 45px;
@@ -380,6 +384,44 @@ body > img {
   .social {
     position: relative;
     top: 20px;
+  }
+  .pictures {
+    position: absolute;
+    top: -50px;
+  }
+  .oval-green {
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    left: 345px;
+    top: 41px;
+
+    background: #40fff6;
+    mix-blend-mode: normal;
+    opacity: 0.28;
+    filter: blur(135.914px);
+  }
+  .oval {
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    left: 345px;
+    top: 312px;
+
+    background: #ff9201;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    filter: blur(135.914px);
+  }
+  .oval-2 {
+    display: none;
+  }
+  body > img {
+    position: absolute;
+    width: 266.67px;
+    height: 400px;
+    left: 537px;
+    top: -32px;
   }
 }
 
